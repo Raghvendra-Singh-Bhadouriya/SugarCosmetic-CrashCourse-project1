@@ -1,0 +1,2550 @@
+body{
+    border:0px solid blue;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color:rgb(243,243,243) ;
+}
+/*======================Navbar CSS===================================*/
+
+#navbar{
+    border:0px solid black;
+    overflow: hidden;
+    position:sticky;
+    top:0;
+    left:0;
+    right:0;
+    z-index:9999999;
+}
+
+#nav-first-div{
+    border:0px solid blue;
+    display:flex;
+    background-color:rgb(0,0,0) ;
+    padding:1%;
+}
+
+.input-search-div{
+    border:1px solid rgb(231, 230, 230);
+    border-radius: 10px;
+    width:50%;
+    height:48px;
+    display:flex;
+    margin-left:1%;
+}
+.input-search-div > input{
+    width:100%;
+    background-color:rgb(33,33,33) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 18px;
+    padding-left: 4%;
+    color:white;
+}
+
+.input-search-div > button{
+    background-color: rgb(255,255,255);
+    font-size: 16px;
+    width:25%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.login-cart-main-div{
+    border:0px solid yellow;
+    margin-left: 5%;
+    display:flex;
+    justify-content: space-between;
+    width:25%;
+}
+
+.login-register-div{
+    border:0px solid blue;
+    display:flex;
+    width:40%;
+}
+
+.user-icon-div{
+    border:0px solid yellow;
+    border-radius:50px;
+    background-color: white;
+    text-align: center;
+    margin:10% 0% 15% 0%;
+    width:20%;
+}
+
+.user-icon-div i{
+    font-size: 90%;
+    color:black;
+    margin:auto;   
+}
+
+.login-register-txt > a{
+    color:white;
+    font-size:90%;
+    margin-left:5%;
+    font-weight:500;
+    text-decoration: none;
+}
+.login-register-txt > a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.icons-div{
+    border:0px solid yellow;
+    display:flex;
+    width:30%;
+    justify-content: space-between;
+}
+
+.icons-div i{
+    margin-top: 60%;
+    font-size: 140%;
+    color:white;
+}
+
+#nav-second-div{
+    border:0px solid blue;
+    color:white;
+    background-color: rgb(20,20,20);
+    display:flex;
+    justify-content: space-evenly;
+    padding:1.5% 0% 1.5% 0%;
+}
+
+#nav-second-div a{
+    text-decoration: none;
+    font-size: 80%;
+    color:white;
+    font-weight: bold;
+}
+#nav-second-div >a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+
+/*============================Auto Slide Image========================================*/
+.auto-slide-img-main-div{
+    border:0px solid black;
+    padding-bottom: 10%;
+}
+
+#slide-img{
+    width:99.9%;
+    position: absolute;
+}
+
+.button-left{
+    border:1px solid black;
+    border-radius:50px;
+    width:3%;
+    height:9%;
+    margin-left:1%;
+    background-color: black;
+    color:white;
+    font-size:150%;
+    position:relative;
+}
+
+.button-right{
+    border:1px solid black;
+    width:3%;
+    height:9%;
+    margin-left:91%;
+    margin-top:10%;
+    color:white;
+    border-radius:50px;
+    font-size:150%;
+    position:relative;
+    background-color:black;
+}
+
+/*======================================BESTSELLERS======================================*/
+#best-seller{
+    border:1px solid black;
+    margin-top:8%;
+    padding-bottom: 80px;
+    background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+    text-align: center;
+}
+
+.product-type-name-white{
+    color:white;
+    margin-top:5%;
+}
+.product-type-name-black{
+    color:black;
+    margin-top: 6%;
+}
+
+.best-seller-child-div{
+    border:0px solid white;
+    width:65%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.best-seller-card{
+    border:0px solid yellow;
+    width:31%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bestseller-img-div{
+    width:80%;
+    margin: auto;
+    margin-top:1%;
+}
+
+.bestseller-img-div img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.best-seller-card > p{
+    line-height: 3px;
+    font-size:14px;
+}
+
+.mrp{
+    font-size: 14px;
+    font-weight: 100;
+    color:rgb(51, 49, 49);
+    padding-left:2%;
+}
+
+.line-through{
+    font-size: 14px;
+    font-weight: 100;
+    color:rgb(51, 49, 49);
+    text-decoration: line-through;
+    padding-left:2%;
+}
+
+.price-txt-div{
+    border:0px solid black;
+    display:flex;
+    width:50%;
+    margin:auto;
+    margin-top:-6%;
+}
+.price-txt-div > div{
+    border:1px solid blue;
+    padding:0;
+    background-color: rgb(1, 54, 1);
+    width:45%;
+    height:15px;
+    border-radius: 10px;
+    
+}
+.price-txt-div > div > p{
+    font-size: 10px;
+    color:white;
+    font-weight: bold;
+    margin-top: 1%;
+}
+.price-txt-div > div + p{
+    font-size: 12px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.chooseitem-wishlist-div{
+    border:0px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:10%;
+}
+.wishlist-icon-div{
+    border:1px solid black;
+    padding:4%;
+    border-radius: 10px;
+}
+.wishlist-icon-div > i {
+    font-size: 25px;
+}
+.chooseitem-btn{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: cadetblue;
+}
+
+/*===============================EXCLUSIVE TREATS================================*/
+#exclusive-treats-main-div{
+    border:0px solid black;
+    text-align: center;
+}
+.exclusive-treats-image-div{
+    border:0px solid black;
+    margin:4%;
+}
+.exclusive-treats-image-div > img{
+    width:100%;
+    border-radius: 10px;
+}
+
+/*=============================CURATED KITS FOR YOU (css copy from) BESTSELLERS============================*/
+#curated-kits-for-you{
+    border:1px solid black;
+    margin-top:2%;
+    padding-bottom: 80px;
+    background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+    text-align: center;
+}
+
+/*==============================REFER YOUR FRIENDS=============================*/
+#refer-your-friends-main-div{
+    border:0px solid black;
+    text-align: center;
+}
+
+/*======================================HOT DEALS==============================*/
+#hot-deals{
+    border:0px solid black;
+    text-align: center;
+}
+.parent-of-two-div{
+    border:0px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    margin:3% 0% 5% 0%;
+}
+.child-of-parent-div{
+    border:0px solid blue;
+    width:45%;
+}
+.child-of-parent-div > img{
+    width:100%;
+    border-radius: 10px;
+}
+
+/*==============================JUST-IN (copy css from) BEST SELLERS====================================*/
+#just-in{
+    border:1px solid black;
+    margin-top:2%;
+    padding-bottom: 80px;
+    background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+    text-align: center;
+}
+
+/*=====================================LIQUID LIPSTICKS======================================*/
+#liquid-lipstick{
+    border:0px solid black;
+    text-align: center;
+    background-color: rgb(242,242,242);
+}
+.liquid-lipstick-img-div{
+    border:0px solid black;
+    width:80%;
+    margin:auto;
+}
+.liquid-lipstick-img-div >a> img{
+    width:100%;
+    border-radius: 10px;
+}
+
+/*================================TOP PICKS (css copy from) HOT DEALS================================*/
+#top-picks{
+    border:0px solid black;
+    text-align: center;
+    background-color:rgb(242,242,242) ;
+}
+
+/*=================================SUPER SAVERS (css copy from) BESTSELLERS===========================*/
+#super-savers{
+    border:1px solid black;
+    margin-top:2%;
+    padding-bottom: 80px;
+    background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+    text-align: center;
+}
+
+/*==================================NEWLY LAUNCHED===============================*/
+#newly-launched{
+    border:1px solid rgb(242,242,242);
+    padding-bottom: 10%;
+    background-color: rgb(242,242,242);
+}
+.two-image{
+    width:90%;
+    position: absolute;
+    margin-left: 4%;
+    border-radius: 10px;
+}
+.button-nxt{
+    border:1px solid black;
+    border-radius:50px;
+    width:3%;
+    height:9%;
+    margin-left:5%;
+    background-color: black;
+    color:white;
+    font-size:150%;
+    position:relative;
+}
+
+.button-pre{
+    border:1px solid black;
+    width:3%;
+    height:9%;
+    margin-left:82%;
+    margin-top:10%;
+    color:white;
+    border-radius:50px;
+    font-size:150%;
+    position:relative;
+    background-color:black;
+}
+
+/*===========================SKINCARE BASICS (css copy from) BESTSELLERS===============================*/
+
+#skincare-basics{
+    border:1px solid black;
+    margin-top:2%;
+    padding-bottom: 80px;
+    background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+    text-align: center;
+}
+
+/*==============================SUGAR BEAUTY BLOG (css copy from) HOT DEALS=============================*/
+#sugar-beauty-blog{
+    border:0px solid black;
+    text-align: center;
+}
+
+/*===============================MERCH STATION (css copy from) BESTSELLERS==============================*/
+#merch-station{
+    border:0px solid black;
+    margin-top:2%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: white;
+}
+
+/*===============================FOOTER=====================================*/
+#footer{
+    border:0px solid black;
+}
+
+hr{
+    width:90%;
+    margin-top:15%;
+    border-color:rgb(255, 255, 255);
+}
+
+#footer > hr + p{
+    font-size: 16px;
+    font-weight:600;
+    font-family:Roboto, sans-serif;
+    margin:4% 0% 0% 5%;
+}
+
+h2 + p{
+    text-align: center;
+}
+
+.input-subscribe-div{
+    border:1px solid rgb(192, 191, 191);
+    width:70%;
+    margin:auto;
+    display:flex;
+    border-radius: 10px;
+}
+
+.input-subscribe-div > input{
+    width:80%;
+    padding:1.5% 0% 1.5% 2%;
+    font-size: 16px;
+    border: none;
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+    background-color: rgb(255,255,255);
+}
+
+.input-subscribe-div > button{
+    width:20%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color:rgb(0,0,0) ;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+/*--------------------------------------------------------------*/
+#footer-details{
+    border:1px solid black;
+    margin-top:10%;
+    /*text-align: center;*/
+    background-color: rgb(0,0,0);
+}
+.logo-name{
+    margin-top: 5%;
+    color:white;
+    text-align: center;
+}
+
+.social-sites{
+    border:0px solid yellow;
+    width:30%;
+    margin:auto;
+    display:flex;
+    margin-bottom: 2%;
+}
+
+.social-media{
+    border:0px solid red;
+    margin:auto;
+    background-color:rgb(150,150,150) ;
+    border-radius: 50%;
+    padding:1%;
+}
+.social-media :hover{
+    background-color:white ;
+    border-radius: 50%;
+}
+.social-media > i{
+    color:black;
+    font-size:150%;
+}
+
+#about-and-others-parent{
+    border-top:1px solid rgb(153,153,153);
+    border-bottom:1px solid rgb(153,153,153);
+    width:90%;
+    margin:auto;
+    padding:1% 0% 1% 0%;
+}
+.about-and-others-child{
+    border:0px solid red;
+    width:60%;
+    margin:auto;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.about-and-others-child > p >a{
+    color:white;
+    text-decoration: none;
+    font-size: large;
+}
+.about-and-others-child > p > a:hover{
+    text-decoration: underline;
+}
+#contact-main-div{
+    border-bottom:1px solid rgb(153,153,153);
+    width:90%;
+    margin:auto;
+}
+.contact-child-div{
+    border:0px solid red;
+    width:80%;
+    margin:auto;
+    display: flex;
+}
+.contact-child-inner-div{
+    border:0px solid yellow;
+    color:white;
+}
+
+#download-App{
+    border-bottom:1px solid rgb(153,153,153);
+}
+.download-app-parent-container{
+    border:0px solid white;
+    width:60%;
+    margin:auto;
+    display:flex;
+}
+.child-container{
+    border:0px solid red;
+    width:60%;
+}
+.child-container > p{
+    font-size: 105%;
+    font-weight: bold;
+    color:white;
+}
+.child-container > p + P{
+    font-size: 95%;
+    font-weight: normal;
+    color:rgb(150,150,150);
+}
+.download-by-app{
+    width:40%;
+    margin: 4%;
+    cursor: pointer;
+}
+.download-by-app > img{
+    width:100%;
+}
+#copyright-claim{
+    color:rgb(150,150,150);
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*========================CSS styles for the media query=======================*/
+
+@media all and (max-width: 540px){
+    /*======================Navbar CSS===================================*/
+
+#navbar{
+    border:0px solid black;
+    overflow: hidden;
+    position:sticky;
+    top:0;
+    left:0;
+    right:0;
+    z-index:9999999;
+      
+}
+.logo-div{
+   width:40%;
+}
+.logo-div>img{
+    width:100%;
+}
+#nav-first-div{
+    border:0px solid blue;
+    /*display:flex;*/
+    background-color:rgb(0,0,0) ;
+    padding:1%;
+}
+
+.input-search-div{
+    border:1px solid rgb(231, 230, 230);
+    border-radius: 10px;
+    width:50%;
+    height:38px;
+    display:flex;
+    margin-left:5%;
+}
+.input-search-div > input{
+    width:70%;
+    background-color:rgb(33,33,33) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 18px;
+    padding-left: 4%;
+    color:white;
+}
+
+.input-search-div > button{
+    background-color: rgb(255,255,255);
+    font-size: 16px;
+    width:25%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.login-cart-main-div{
+    border:0px solid yellow;
+    margin-left: 5%;
+    display:flex;
+    justify-content: space-between;
+    width:25%;
+    display:none;
+}
+
+.login-register-div{
+    border:0px solid blue;
+    display:flex;
+    width:40%;
+}
+
+.user-icon-div{
+    border:0px solid yellow;
+    border-radius:50px;
+    background-color: white;
+    text-align: center;
+    margin:10% 0% 15% 0%;
+    width:20%;
+}
+
+.user-icon-div i{
+    font-size: 90%;
+    color:black;
+    margin:auto;   
+}
+
+.login-register-txt > a{
+    color:white;
+    font-size:90%;
+    margin-left:5%;
+    font-weight:500;
+    text-decoration: none;
+}
+
+.icons-div{
+    border:0px solid yellow;
+    display:flex;
+    width:30%;
+    justify-content: space-between;
+}
+
+.icons-div i{
+    margin-top: 60%;
+    font-size: 140%;
+    color:white;
+}
+
+#nav-second-div{
+    border:0px solid blue;
+    color:white;
+    background-color: rgb(20,20,20);
+    display:flex;
+    justify-content: space-evenly;
+    padding:1.5% 0% 1.5% 0%;
+}
+
+#nav-second-div a{
+    text-decoration: none;
+    font-size: 55%;
+    color:white;
+    font-weight: bold;
+}
+
+/*============================Auto Slide Image========================================*/
+.auto-slide-img-main-div{
+    border:0px solid black;
+    padding-bottom: 10%;
+}
+
+#slide-img{
+    width:99.9%;
+    position: absolute;
+}
+
+.button-left{
+    border:1px solid black;
+    border-radius:50px;
+    width:4%;
+    margin-left:1%;
+    margin-top: 10%;
+    background-color: black;
+    color:white;
+    font-size:100%;
+    position:relative;
+}
+
+.button-right{
+    border:1px solid black;
+    width:4%;
+    height:9%;
+    margin-left:95%;
+    margin-top: -1%;
+    color:white;
+    border-radius:50px;
+    font-size:100%;
+    position:relative;
+    background-color:black;
+}
+
+/*======================================BESTSELLERS======================================*/
+#best-seller{
+    border:1px solid black;
+    margin-top:5%;
+    padding-bottom: 80px;
+    background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+    text-align: center;
+}
+
+.product-type-name-white{
+    color:white;
+    margin-top:5%;
+}
+.product-type-name-black{
+    color:black;
+    margin-top: 6%;
+}
+
+.best-seller-child-div{
+    border:0px solid white;
+    width:100%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2%;
+    background-color: transparent;
+}
+
+.best-seller-card{
+    border:0px solid yellow;
+    width:80%;
+    margin:auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bestseller-img-div{
+    width:80%;
+    margin: auto;
+    margin-top:1%;
+}
+
+.bestseller-img-div img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.best-seller-card > p{
+    line-height: 3px;
+    font-size:14px;
+}
+
+.mrp{
+    font-size: 14px;
+    font-weight: 100;
+    color:rgb(51, 49, 49);
+    padding-left:2%;
+}
+
+.line-through{
+    font-size: 14px;
+    font-weight: 100;
+    color:rgb(51, 49, 49);
+    text-decoration: line-through;
+    padding-left:2%;
+}
+
+.price-txt-div{
+    border:0px solid black;
+    display:flex;
+    width:50%;
+    margin:auto;
+    margin-top:-6%;
+}
+.price-txt-div > div{
+    border:1px solid blue;
+    padding:0;
+    background-color: rgb(1, 54, 1);
+    width:45%;
+    height:15px;
+    border-radius: 10px;
+    
+}
+.price-txt-div > div > p{
+    font-size: 10px;
+    color:white;
+    font-weight: bold;
+    margin-top: 1%;
+}
+.price-txt-div > div + p{
+    font-size: 12px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.chooseitem-wishlist-div{
+    border:0px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:10%;
+}
+.wishlist-icon-div{
+    border:1px solid black;
+    padding:4%;
+    border-radius: 10px;
+}
+.wishlist-icon-div > i {
+    font-size: 25px;
+}
+.chooseitem-btn{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: cadetblue;
+}
+
+/*===============================EXCLUSIVE TREATS================================*/
+
+.exclusive-treats-image-div{
+    border:0px solid black;
+    margin:4% 1% 4% 1%;
+}
+
+/*======================================HOT DEALS==============================*/
+
+.parent-of-two-div{
+    border:0px solid black;
+    margin:3% 0% 5% 0%;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.child-of-parent-div{
+    border:0px solid blue;
+    width:90%;
+    margin:auto;
+}
+
+/*=====================================LIQUID LIPSTICKS======================================*/
+
+.liquid-lipstick-img-div{
+    border:0px solid black;
+    width:95%;
+    margin:auto;
+}
+
+/*==================================NEWLY LAUNCHED===============================*/
+#newly-launched{
+    border:1px solid rgb(242,242,242);
+    padding-bottom: 10%;
+    background-color: rgb(242,242,242);
+}
+.two-image{
+    width:100%;
+    margin:auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.button-nxt{
+    border:1px solid black;
+    border-radius:50px;
+    width:4%;
+    margin-left:4%;
+    background-color: black;
+    color:white;
+    font-size:100%;
+    position:relative;
+}
+
+.button-pre{
+    border:1px solid black;
+    width:4%;
+    margin-left:84%;
+    margin-top:10%;
+    color:white;
+    border-radius:50px;
+    font-size:100%;
+    position:relative;
+    background-color:black;
+}
+
+/*===============================MERCH STATION (css copy from) BESTSELLERS==============================*/
+#merch-station{
+    border-top:1px solid white;
+    margin-top:1%;
+    padding-bottom: 8%;
+    text-align: center;
+    background-color: white;
+}
+
+/*===============================FOOTER=====================================*/
+#footer > hr + p{
+    font-size: 12px;
+    font-weight:600;
+    font-family:Roboto, sans-serif;
+    margin:4% 0% 0% 5%;
+}
+.input-subscribe-div{
+    border:1px solid rgb(192, 191, 191);
+    width:70%;
+    margin:auto;
+    display:flex;
+    border-radius: 10px;
+}
+
+.input-subscribe-div > input{
+    width:78%;
+    padding:1.5% 0% 1.5% 2%;
+    font-size: 14px;
+    border: none;
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+    background-color: rgb(255,255,255);
+}
+
+.input-subscribe-div > button{
+    width:22%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color:rgb(0,0,0) ;
+    color: white;
+    font-size: 12px;
+    overflow: hidden;
+    border: none;
+}
+/*--------------------------------------------------------------*/
+.social-sites{
+    border:0px solid yellow;
+    width:45%;
+    margin:auto;
+    display:flex;
+    margin-bottom: 2%;
+}
+
+.social-media{
+    border:0px solid red;
+    margin:auto;
+    background-color:rgb(150,150,150) ;
+    border-radius: 50%;
+    padding:1%;
+}
+.social-media :hover{
+    background-color:white ;
+    border-radius: 50%;
+}
+.social-media > i{
+    color:black;
+    font-size:150%;
+}
+
+#about-and-others-parent{
+    border-top:1px solid rgb(153,153,153);
+    border-bottom:1px solid rgb(153,153,153);
+    width:90%;
+    margin:auto;
+    padding:1% 0% 1% 0%;
+}
+.about-and-others-child{
+    border:0px solid red;
+    width:90%;
+    margin:auto;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.about-and-others-child > p >a{
+    color:white;
+    text-decoration: none;
+    font-size:14px;
+}
+.about-and-others-child > p > a:hover{
+    text-decoration: underline;
+}
+#contact-main-div{
+    border-bottom:1px solid rgb(153,153,153);
+    width:90%;
+    margin:auto;
+}
+.contact-child-div{
+    border:0px solid red;
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+}
+
+.download-app-parent-container{
+    border:0px solid white;
+    width:60%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.child-container{
+    border:0px solid red;
+    text-align: center;
+    width:100%;
+}
+.child-container > p{
+    font-size: 105%;
+    font-weight: bold;
+    color:white;
+}
+.child-container > p + P{
+    font-size: 95%;
+    font-weight: normal;
+    color:rgb(150,150,150);
+}
+.download-by-app{
+    width:40%;
+    margin: 4%;
+    cursor: pointer;
+}
+.download-by-app > img{
+    width:100%;
+}
+#copyright-claim{
+    color:rgb(150,150,150);
+    text-align: center;
+}
+}
+
+
+
+@media all and (min-width:541px) and (max-width:740px){
+/*======================Navbar CSS===================================*/
+
+#navbar{
+    border:0px solid black;
+    overflow: hidden;
+    position:sticky;
+    top:0;
+    left:0;
+    right:0;
+    z-index:9999999;
+      
+}
+.logo-div{
+   width:40%;
+}
+.logo-div>img{
+    width:100%;
+}
+#nav-first-div{
+    border:0px solid blue;
+    /*display:flex;*/
+    background-color:rgb(0,0,0) ;
+    padding:1%;
+}
+
+.input-search-div{
+    border:1px solid rgb(231, 230, 230);
+    border-radius: 10px;
+    width:50%;
+    height:38px;
+    display:flex;
+    margin-left:5%;
+}
+.input-search-div > input{
+    width:70%;
+    background-color:rgb(33,33,33) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 18px;
+    padding-left: 4%;
+    color:white;
+}
+
+.input-search-div > button{
+    background-color: rgb(255,255,255);
+    font-size: 16px;
+    width:25%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.login-cart-main-div{
+    border:0px solid yellow;
+    margin-left: 5%;
+    display:flex;
+    justify-content: space-between;
+    width:25%;
+    display:none;
+}
+
+.login-register-div{
+    border:0px solid blue;
+    display:flex;
+    width:40%;
+}
+
+.user-icon-div{
+    border:0px solid yellow;
+    border-radius:50px;
+    background-color: white;
+    text-align: center;
+    margin:10% 0% 15% 0%;
+    width:20%;
+}
+
+.user-icon-div i{
+    font-size: 90%;
+    color:black;
+    margin:auto;   
+}
+
+.login-register-txt > a{
+    color:white;
+    font-size:90%;
+    margin-left:5%;
+    font-weight:500;
+    text-decoration: none;
+}
+
+.icons-div{
+    border:0px solid yellow;
+    display:flex;
+    width:30%;
+    justify-content: space-between;
+}
+
+.icons-div i{
+    margin-top: 60%;
+    font-size: 140%;
+    color:white;
+}
+
+#nav-second-div{
+    border:0px solid blue;
+    color:white;
+    background-color: rgb(20,20,20);
+    display:flex;
+    justify-content: space-evenly;
+    padding:1.5% 0% 1.5% 0%;
+}
+
+#nav-second-div a{
+    text-decoration: none;
+    font-size: 55%;
+    color:white;
+    font-weight: bold;
+}
+
+/*============================Auto Slide Image========================================*/
+.auto-slide-img-main-div{
+    border:0px solid black;
+    padding-bottom: 10%;
+}
+
+#slide-img{
+    width:99.9%;
+    position: absolute;
+}
+
+.button-left{
+    border:1px solid black;
+    border-radius:50px;
+    width:4%;
+    margin-left:1%;
+    margin-top: 10%;
+    background-color: black;
+    color:white;
+    font-size:100%;
+    position:relative;
+}
+
+.button-right{
+    border:1px solid black;
+    width:4%;
+    height:9%;
+    margin-left:95%;
+    margin-top: -1%;
+    color:white;
+    border-radius:50px;
+    font-size:100%;
+    position:relative;
+    background-color:black;
+}
+
+/*======================================BESTSELLERS======================================*/
+#best-seller{
+    border:1px solid black;
+    margin-top:5%;
+    padding-bottom: 80px;
+    background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+    text-align: center;
+}
+
+.product-type-name-white{
+    color:white;
+    margin-top:5%;
+}
+.product-type-name-black{
+    color:black;
+    margin-top: 6%;
+}
+
+.best-seller-child-div{
+    border:0px solid white;
+    width:100%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2%;
+    background-color: transparent;
+}
+
+.best-seller-card{
+    border:0px solid yellow;
+    width:80%;
+    margin:auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bestseller-img-div{
+    width:80%;
+    margin: auto;
+    margin-top:1%;
+}
+
+.bestseller-img-div img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.best-seller-card > p{
+    line-height: 3px;
+    font-size:14px;
+}
+
+.mrp{
+    font-size: 14px;
+    font-weight: 100;
+    color:rgb(51, 49, 49);
+    padding-left:2%;
+}
+
+.line-through{
+    font-size: 14px;
+    font-weight: 100;
+    color:rgb(51, 49, 49);
+    text-decoration: line-through;
+    padding-left:2%;
+}
+
+.price-txt-div{
+    border:0px solid black;
+    display:flex;
+    width:50%;
+    margin:auto;
+    margin-top:-6%;
+}
+.price-txt-div > div{
+    border:1px solid blue;
+    padding:0;
+    background-color: rgb(1, 54, 1);
+    width:45%;
+    height:15px;
+    border-radius: 10px;
+    
+}
+.price-txt-div > div > p{
+    font-size: 10px;
+    color:white;
+    font-weight: bold;
+    margin-top: 1%;
+}
+.price-txt-div > div + p{
+    font-size: 12px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.chooseitem-wishlist-div{
+    border:0px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:10%;
+}
+.wishlist-icon-div{
+    border:1px solid black;
+    padding:4%;
+    border-radius: 10px;
+}
+.wishlist-icon-div > i {
+    font-size: 25px;
+}
+.chooseitem-btn{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: cadetblue;
+}
+
+/*===============================EXCLUSIVE TREATS================================*/
+
+.exclusive-treats-image-div{
+    border:0px solid black;
+    margin:4% 1% 4% 1%;
+}
+
+/*======================================HOT DEALS==============================*/
+
+.parent-of-two-div{
+    border:0px solid black;
+    margin:3% 0% 5% 0%;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.child-of-parent-div{
+    border:0px solid blue;
+    width:90%;
+    margin:auto;
+}
+
+/*=====================================LIQUID LIPSTICKS======================================*/
+
+.liquid-lipstick-img-div{
+    border:0px solid black;
+    width:95%;
+    margin:auto;
+}
+
+/*==================================NEWLY LAUNCHED===============================*/
+#newly-launched{
+    border:1px solid rgb(242,242,242);
+    padding-bottom: 10%;
+    background-color: rgb(242,242,242);
+}
+.two-image{
+    width:100%;
+    margin:auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.button-nxt{
+    border:1px solid black;
+    border-radius:50px;
+    width:4%;
+    margin-left:4%;
+    background-color: black;
+    color:white;
+    font-size:100%;
+    position:relative;
+}
+
+.button-pre{
+    border:1px solid black;
+    width:4%;
+    margin-left:84%;
+    margin-top:10%;
+    color:white;
+    border-radius:50px;
+    font-size:100%;
+    position:relative;
+    background-color:black;
+}
+
+/*===============================MERCH STATION (css copy from) BESTSELLERS==============================*/
+#merch-station{
+    border-top:1px solid white;
+    margin-top:1%;
+    padding-bottom: 8%;
+    text-align: center;
+    background-color: white;
+}
+
+/*===============================FOOTER=====================================*/
+#footer > hr + p{
+    font-size: 12px;
+    font-weight:600;
+    font-family:Roboto, sans-serif;
+    margin:4% 0% 0% 5%;
+}
+.input-subscribe-div{
+    border:1px solid rgb(192, 191, 191);
+    width:70%;
+    margin:auto;
+    display:flex;
+    border-radius: 10px;
+}
+
+.input-subscribe-div > input{
+    width:78%;
+    padding:1.5% 0% 1.5% 2%;
+    font-size: 14px;
+    border: none;
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+    background-color: rgb(255,255,255);
+}
+
+.input-subscribe-div > button{
+    width:22%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color:rgb(0,0,0) ;
+    color: white;
+    font-size: 12px;
+    overflow: hidden;
+    border: none;
+}
+/*--------------------------------------------------------------*/
+.social-sites{
+    border:0px solid yellow;
+    width:45%;
+    margin:auto;
+    display:flex;
+    margin-bottom: 2%;
+}
+
+.social-media{
+    border:0px solid red;
+    margin:auto;
+    background-color:rgb(150,150,150) ;
+    border-radius: 50%;
+    padding:1%;
+}
+.social-media :hover{
+    background-color:white ;
+    border-radius: 50%;
+}
+.social-media > i{
+    color:black;
+    font-size:150%;
+}
+
+#about-and-others-parent{
+    border-top:1px solid rgb(153,153,153);
+    border-bottom:1px solid rgb(153,153,153);
+    width:90%;
+    margin:auto;
+    padding:1% 0% 1% 0%;
+}
+.about-and-others-child{
+    border:0px solid red;
+    width:90%;
+    margin:auto;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.about-and-others-child > p >a{
+    color:white;
+    text-decoration: none;
+    font-size:14px;
+}
+.about-and-others-child > p > a:hover{
+    text-decoration: underline;
+}
+#contact-main-div{
+    border-bottom:1px solid rgb(153,153,153);
+    width:90%;
+    margin:auto;
+}
+.contact-child-div{
+    border:0px solid red;
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+}
+
+.download-app-parent-container{
+    border:0px solid white;
+    width:60%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.child-container{
+    border:0px solid red;
+    text-align: center;
+    width:100%;
+}
+.child-container > p{
+    font-size: 105%;
+    font-weight: bold;
+    color:white;
+}
+.child-container > p + P{
+    font-size: 95%;
+    font-weight: normal;
+    color:rgb(150,150,150);
+}
+.download-by-app{
+    width:40%;
+    margin: 4%;
+    cursor: pointer;
+}
+.download-by-app > img{
+    width:100%;
+}
+#copyright-claim{
+    color:rgb(150,150,150);
+    text-align: center;
+}
+}
+
+@media all and (min-width:741px) and (max-width:840px){
+/*======================Navbar CSS===================================*/
+    
+    #navbar{
+        border:0px solid black;
+        overflow: hidden;
+        position:sticky;
+        top:0;
+        left:0;
+        right:0;
+        z-index:9999999;
+          
+    }
+    .logo-div{
+       width:30%;
+    }
+    .logo-div>img{
+        width:100%;
+    }
+    #nav-first-div{
+        border:0px solid blue;
+        display:flex;
+        background-color:rgb(0,0,0) ;
+        padding:1%;
+    }
+    
+    .input-search-div{
+        border:1px solid rgb(231, 230, 230);
+        border-radius: 10px;
+        width:45%;
+        height:38px;
+        display:flex;
+        margin-left:5%;
+    }
+    .input-search-div > input{
+        width:70%;
+        background-color:rgb(33,33,33) ;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 18px;
+        padding-left: 4%;
+        color:white;
+    }
+    
+    .input-search-div > button{
+        background-color: rgb(255,255,255);
+        font-size: 18px;
+        width:25%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .login-cart-main-div{
+        border:0px solid yellow;
+        margin-left: 5%;
+        display:flex;
+        justify-content: space-between;
+        width:25%;
+        
+    }
+    
+    .login-register-div{
+        border:0px solid blue;
+        display:flex;
+        width:40%;
+    }
+    
+    .user-icon-div{
+        border:0px solid yellow;
+        border-radius:50px;
+        background-color: white;
+        text-align: center;
+        margin:10% 0% 15% 0%;
+        width:20%;
+    }
+    
+    .user-icon-div i{
+        font-size: 90%;
+        color:black;
+        margin:auto;   
+    }
+    
+    .login-register-txt > a{
+        color:white;
+        font-size:90%;
+        margin-left:5%;
+        font-weight:500;
+        text-decoration: none;
+    }
+    
+    .icons-div{
+        border:0px solid yellow;
+        display:flex;
+        width:30%;
+        justify-content: space-between;
+    }
+    
+    .icons-div i{
+        margin-top: 60%;
+        font-size: 140%;
+        color:white;
+    }
+    
+    #nav-second-div{
+        border:0px solid blue;
+        color:white;
+        background-color: rgb(20,20,20);
+        display:flex;
+        justify-content: space-evenly;
+        padding:1.5% 0% 1.5% 0%;
+    }
+    
+    #nav-second-div a{
+        text-decoration: none;
+        font-size: 70%;
+        color:white;
+        font-weight: bold;
+    }
+    
+    /*============================Auto Slide Image========================================*/
+    .auto-slide-img-main-div{
+        border:0px solid black;
+        padding-bottom: 10%;
+    }
+    
+    #slide-img{
+        width:99.9%;
+        position: absolute;
+    }
+    
+    .button-left{
+        border:1px solid black;
+        border-radius:50px;
+        width:4%;
+        margin-left:1%;
+        margin-top: 10%;
+        background-color: black;
+        color:white;
+        font-size:100%;
+        position:relative;
+    }
+    
+    .button-right{
+        border:1px solid black;
+        width:4%;
+        height:9%;
+        margin-left:95%;
+        margin-top: -1%;
+        color:white;
+        border-radius:50px;
+        font-size:100%;
+        position:relative;
+        background-color:black;
+    }
+    
+    /*======================================BESTSELLERS======================================*/
+    #best-seller{
+        border:1px solid black;
+        margin-top:5%;
+        padding-bottom: 80px;
+        background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+        text-align: center;
+    }
+    
+    .product-type-name-white{
+        color:white;
+        margin-top:5%;
+    }
+    .product-type-name-black{
+        color:black;
+        margin-top: 6%;
+    }
+    
+    .best-seller-child-div{
+        border:0px solid white;
+        width:100%;
+        margin:auto;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:2%;
+        background-color: transparent;
+    }
+    
+    .best-seller-card{
+        border:0px solid yellow;
+        width:85%;
+        margin:auto;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .bestseller-img-div{
+        width:80%;
+        margin: auto;
+        margin-top:1%;
+    }
+    
+    .bestseller-img-div img{
+        width:100%;
+        border-radius: 10px;
+    }
+    
+    .best-seller-card > p{
+        line-height: 3px;
+        font-size:18px;
+    }
+    
+    .mrp{
+        font-size: 18px;
+        font-weight: 100;
+        color:rgb(51, 49, 49);
+        padding-left:2%;
+    }
+    
+    .line-through{
+        font-size: 16px;
+        font-weight: 100;
+        color:rgb(51, 49, 49);
+        text-decoration: line-through;
+        padding-left:2%;
+    }
+    
+    .price-txt-div{
+        border:0px solid black;
+        display:flex;
+        width:50%;
+        margin:auto;
+        margin-top:-6%;
+    }
+    .price-txt-div > div{
+        border:1px solid blue;
+        padding:0;
+        background-color: rgb(1, 54, 1);
+        width:45%;
+        height:15px;
+        border-radius: 10px;
+        
+    }
+    .price-txt-div > div > p{
+        font-size: 14px;
+        color:white;
+        font-weight: bold;
+        margin-top: 0%;
+    }
+    .price-txt-div > div + p{
+        font-size: 14px;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    .chooseitem-wishlist-div{
+        border:0px solid black;
+        display:flex;
+        justify-content: space-evenly;
+        margin-bottom:10%;
+    }
+    .wishlist-icon-div{
+        border:1px solid black;
+        padding:4%;
+        border-radius: 10px;
+    }
+    .wishlist-icon-div > i {
+        font-size: 30px;
+    }
+    .chooseitem-btn{
+        background-color: black;
+        color:white;
+        font-size:18px;
+        font-weight: bold;
+        border-radius: 10px;
+        border-color: cadetblue;
+    }
+    
+    /*===============================EXCLUSIVE TREATS================================*/
+    
+    .exclusive-treats-image-div{
+        border:0px solid black;
+        margin:4% 1% 4% 1%;
+    }
+    
+    /*======================================HOT DEALS==============================*/
+    
+    .parent-of-two-div{
+        border:0px solid black;
+        margin:3% 0% 5% 0%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .child-of-parent-div{
+        border:0px solid blue;
+        width:90%;
+        margin:auto;
+    }
+    
+    /*=====================================LIQUID LIPSTICKS======================================*/
+    
+    .liquid-lipstick-img-div{
+        border:0px solid black;
+        width:95%;
+        margin:auto;
+    }
+    
+    /*==================================NEWLY LAUNCHED===============================*/
+    #newly-launched{
+        border:1px solid rgb(242,242,242);
+        padding-bottom: 10%;
+        background-color: rgb(242,242,242);
+    }
+    .two-image{
+        width:100%;
+        margin:auto;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .button-nxt{
+        border:1px solid black;
+        border-radius:50px;
+        width:4%;
+        margin-left:4%;
+        background-color: black;
+        color:white;
+        font-size:100%;
+        position:relative;
+    }
+    
+    .button-pre{
+        border:1px solid black;
+        width:4%;
+        margin-left:84%;
+        margin-top:10%;
+        color:white;
+        border-radius:50px;
+        font-size:100%;
+        position:relative;
+        background-color:black;
+    }
+    
+    /*===============================MERCH STATION (css copy from) BESTSELLERS==============================*/
+    #merch-station{
+        border-top:1px solid white;
+        margin-top:1%;
+        padding-bottom: 8%;
+        text-align: center;
+        background-color: white;
+    }
+    
+    /*===============================FOOTER=====================================*/
+    #footer > hr + p{
+        font-size: 12px;
+        font-weight:600;
+        font-family:Roboto, sans-serif;
+        margin:4% 0% 0% 5%;
+    }
+    .input-subscribe-div{
+        border:1px solid rgb(192, 191, 191);
+        width:70%;
+        margin:auto;
+        display:flex;
+        border-radius: 10px;
+    }
+    
+    .input-subscribe-div > input{
+        width:78%;
+        padding:1.5% 0% 1.5% 2%;
+        font-size: 14px;
+        border: none;
+        border-bottom-left-radius:10px;
+        border-top-left-radius:10px;
+        background-color: rgb(255,255,255);
+    }
+    
+    .input-subscribe-div > button{
+        width:22%;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:10px;
+        background-color:rgb(0,0,0) ;
+        color: white;
+        font-size: 12px;
+        overflow: hidden;
+        border: none;
+    }
+    /*--------------------------------------------------------------*/
+    .social-sites{
+        border:0px solid yellow;
+        width:45%;
+        margin:auto;
+        display:flex;
+        margin-bottom: 2%;
+    }
+    
+    .social-media{
+        border:0px solid red;
+        margin:auto;
+        background-color:rgb(150,150,150) ;
+        border-radius: 50%;
+        padding:1%;
+    }
+    .social-media :hover{
+        background-color:white ;
+        border-radius: 50%;
+    }
+    .social-media > i{
+        color:black;
+        font-size:150%;
+    }
+    
+    #about-and-others-parent{
+        border-top:1px solid rgb(153,153,153);
+        border-bottom:1px solid rgb(153,153,153);
+        width:90%;
+        margin:auto;
+        padding:1% 0% 1% 0%;
+    }
+    .about-and-others-child{
+        border:0px solid red;
+        width:90%;
+        margin:auto;
+        color:white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-and-others-child > p >a{
+        color:white;
+        text-decoration: none;
+        font-size:14px;
+    }
+    .about-and-others-child > p > a:hover{
+        text-decoration: underline;
+    }
+    #contact-main-div{
+        border-bottom:1px solid rgb(153,153,153);
+        width:90%;
+        margin:auto;
+    }
+    .contact-child-div{
+        border:0px solid red;
+        width:90%;
+        margin:auto;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    
+    .download-app-parent-container{
+        border:0px solid white;
+        width:60%;
+        margin:auto;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .child-container{
+        border:0px solid red;
+        text-align: center;
+        width:100%;
+    }
+    .child-container > p{
+        font-size: 105%;
+        font-weight: bold;
+        color:white;
+    }
+    .child-container > p + P{
+        font-size: 95%;
+        font-weight: normal;
+        color:rgb(150,150,150);
+    }
+    .download-by-app{
+        width:40%;
+        margin: 4%;
+        cursor: pointer;
+    }
+    .download-by-app > img{
+        width:100%;
+    }
+    #copyright-claim{
+        color:rgb(150,150,150);
+        text-align: center;
+    }
+    }
+
+    @media all and (min-width:841px) and (max-width:960px){
+        /*======================Navbar CSS===================================*/
+            
+            #navbar{
+                border:0px solid black;
+                overflow: hidden;
+                position:sticky;
+                top:0;
+                left:0;
+                right:0;
+                z-index:9999999;
+                  
+            }
+            .logo-div{
+               width:30%;
+            }
+            .logo-div>img{
+                width:100%;
+            }
+            #nav-first-div{
+                border:0px solid blue;
+                display:flex;
+                background-color:rgb(0,0,0) ;
+                padding:1%;
+            }
+            
+            .input-search-div{
+                border:1px solid rgb(231, 230, 230);
+                border-radius: 10px;
+                width:45%;
+                height:38px;
+                display:flex;
+                margin-left:5%;
+            }
+            .input-search-div > input{
+                width:70%;
+                background-color:rgb(33,33,33) ;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                font-size: 18px;
+                padding-left: 4%;
+                color:white;
+            }
+            
+            .input-search-div > button{
+                background-color: rgb(255,255,255);
+                font-size: 18px;
+                width:25%;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            
+            .login-cart-main-div{
+                border:0px solid yellow;
+                margin-left: 5%;
+                display:flex;
+                justify-content: space-between;
+                width:25%;
+                
+            }
+            
+            .login-register-div{
+                border:0px solid blue;
+                display:flex;
+                width:40%;
+            }
+            
+            .user-icon-div{
+                border:0px solid yellow;
+                border-radius:50px;
+                background-color: white;
+                text-align: center;
+                margin:10% 0% 15% 0%;
+                width:20%;
+            }
+            
+            .user-icon-div i{
+                font-size: 90%;
+                color:black;
+                margin:auto;   
+            }
+            
+            .login-register-txt > a{
+                color:white;
+                font-size:90%;
+                margin-left:5%;
+                font-weight:500;
+                text-decoration: none;
+            }
+            
+            .icons-div{
+                border:0px solid yellow;
+                display:flex;
+                width:30%;
+                justify-content: space-between;
+            }
+            
+            .icons-div i{
+                margin-top: 60%;
+                font-size: 140%;
+                color:white;
+            }
+            
+            #nav-second-div{
+                border:0px solid blue;
+                color:white;
+                background-color: rgb(20,20,20);
+                display:flex;
+                justify-content: space-evenly;
+                padding:1.5% 0% 1.5% 0%;
+            }
+            
+            #nav-second-div a{
+                text-decoration: none;
+                font-size: 70%;
+                color:white;
+                font-weight: bold;
+            }
+            
+            /*============================Auto Slide Image========================================*/
+            .auto-slide-img-main-div{
+                border:0px solid black;
+                padding-bottom: 10%;
+            }
+            
+            #slide-img{
+                width:99.9%;
+                position: absolute;
+            }
+            
+            .button-left{
+                border:1px solid black;
+                border-radius:50px;
+                width:4%;
+                margin-left:1%;
+                margin-top: 10%;
+                background-color: black;
+                color:white;
+                font-size:100%;
+                position:relative;
+            }
+            
+            .button-right{
+                border:1px solid black;
+                width:4%;
+                height:9%;
+                margin-left:95%;
+                margin-top: -1%;
+                color:white;
+                border-radius:50px;
+                font-size:100%;
+                position:relative;
+                background-color:black;
+            }
+            
+            /*======================================BESTSELLERS======================================*/
+            #best-seller{
+                border:1px solid black;
+                margin-top:8%;
+                padding-bottom: 80px;
+                background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+                text-align: center;
+            }
+            
+            .product-type-name-white{
+                color:white;
+                margin-top:5%;
+            }
+            .product-type-name-black{
+                color:black;
+                margin-top: 6%;
+            }
+            
+            .best-seller-child-div{
+                border:0px solid white;
+                width:88%;
+                margin:auto;
+                display:flex;
+                justify-content: space-between;
+                background-color: transparent;
+            }
+            
+            .best-seller-card{
+                border:0px solid yellow;
+                width:30%;
+                text-align: center;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+            
+            .bestseller-img-div{
+                width:80%;
+                margin: auto;
+                margin-top:1%;
+            }
+            
+            .bestseller-img-div img{
+                width:100%;
+                border-radius: 10px;
+            }
+            
+            .best-seller-card > p{
+                line-height: 3px;
+                font-size:14px;
+            }
+            
+            .mrp{
+                font-size: 14px;
+                font-weight: 100;
+                color:rgb(51, 49, 49);
+                padding-left:2%;
+            }
+            
+            .line-through{
+                font-size: 14px;
+                font-weight: 100;
+                color:rgb(51, 49, 49);
+                text-decoration: line-through;
+                padding-left:2%;
+            }
+            
+            .price-txt-div{
+                border:0px solid black;
+                display:flex;
+                width:50%;
+                margin:auto;
+                margin-top:-6%;
+            }
+            .price-txt-div > div{
+                border:1px solid blue;
+                padding:0;
+                background-color: rgb(1, 54, 1);
+                width:45%;
+                height:15px;
+                border-radius: 10px;
+                
+            }
+            .price-txt-div > div > p{
+                font-size: 10px;
+                color:white;
+                font-weight: bold;
+                margin-top: 1%;
+            }
+            .price-txt-div > div + p{
+                font-size: 12px;
+                margin-top: 1%;
+                margin-left: 5%;
+            }
+            .chooseitem-wishlist-div{
+                border:0px solid black;
+                display:flex;
+                justify-content: space-evenly;
+                margin-bottom:10%;
+            }
+            .wishlist-icon-div{
+                border:1px solid black;
+                padding:4%;
+                border-radius: 10px;
+            }
+            .wishlist-icon-div > i {
+                font-size: 25px;
+            }
+            .chooseitem-btn{
+                background-color: black;
+                color:white;
+                font-weight: bold;
+                border-radius: 10px;
+                border-color: cadetblue;
+            }
+            
+            /*===============================EXCLUSIVE TREATS================================*/
+            
+            .exclusive-treats-image-div{
+                border:0px solid black;
+                margin:4% 1% 4% 1%;
+            }
+            
+            /*======================================HOT DEALS==============================*/
+            
+            
+            .parent-of-two-div{
+                border:0px solid black;
+                display:flex;
+                justify-content: space-evenly;
+                margin:3% 0% 5% 0%;
+            }
+            .child-of-parent-div{
+                border:0px solid blue;
+                width:45%;
+            }
+            .child-of-parent-div > img{
+                width:100%;
+                border-radius: 10px;
+            }
+            
+            /*=====================================LIQUID LIPSTICKS======================================*/
+            
+            .liquid-lipstick-img-div{
+                border:0px solid black;
+                width:95%;
+                margin:auto;
+            }
+            
+            /*==================================NEWLY LAUNCHED===============================*/
+            #newly-launched{
+                border:1px solid rgb(242,242,242);
+                padding-bottom: 10%;
+                background-color: rgb(242,242,242);
+            }
+            .two-image{
+                width:100%;
+                margin:auto;
+                position: absolute;
+                border-radius: 10px;
+            }
+            .button-nxt{
+                border:1px solid black;
+                border-radius:50px;
+                width:4%;
+                margin-left:4%;
+                background-color: black;
+                color:white;
+                font-size:100%;
+                position:relative;
+            }
+            
+            .button-pre{
+                border:1px solid black;
+                width:4%;
+                margin-left:84%;
+                margin-top:10%;
+                color:white;
+                border-radius:50px;
+                font-size:100%;
+                position:relative;
+                background-color:black;
+            }
+            
+            /*===============================MERCH STATION (css copy from) BESTSELLERS==============================*/
+            #merch-station{
+                border-top:1px solid white;
+                margin-top:1%;
+                padding-bottom: 8%;
+                text-align: center;
+                background-color: white;
+            }
+            
+            /*===============================FOOTER=====================================*/
+            #footer{
+                border:0px solid black;
+            }
+            
+            hr{
+                width:90%;
+                margin-top:15%;
+                border-color:rgb(255, 255, 255);
+            }
+            
+            #footer > hr + p{
+                font-size: 16px;
+                font-weight:600;
+                font-family:Roboto, sans-serif;
+                margin:4% 0% 0% 5%;
+            }
+            
+            h2 + p{
+                text-align: center;
+            }
+            
+            .input-subscribe-div{
+                border:1px solid rgb(192, 191, 191);
+                width:70%;
+                margin:auto;
+                display:flex;
+                border-radius: 10px;
+            }
+            
+            .input-subscribe-div > input{
+                width:80%;
+                padding:1.5% 0% 1.5% 2%;
+                font-size: 16px;
+                border: none;
+                border-bottom-left-radius:10px;
+                border-top-left-radius:10px;
+                background-color: rgb(255,255,255);
+            }
+            
+            .input-subscribe-div > button{
+                width:20%;
+                border-top-right-radius:10px;
+                border-bottom-right-radius:10px;
+                background-color:rgb(0,0,0) ;
+                color: white;
+                font-size: 16px;
+                border: none;
+            }
+            /*--------------------------------------------------------------*/
+            #footer-details{
+                border:1px solid black;
+                margin-top:10%;
+                background-color: rgb(0,0,0);
+            }
+            .logo-name{
+                margin-top: 5%;
+                color:white;
+                text-align: center;
+            }
+            
+            .social-sites{
+                border:0px solid yellow;
+                width:40%;
+                margin:auto;
+                display:flex;
+                margin-bottom: 2%;
+            }
+            
+            .social-media{
+                border:0px solid red;
+                margin:auto;
+                background-color:rgb(150,150,150) ;
+                border-radius: 50%;
+                padding:1%;
+            }
+            .social-media :hover{
+                background-color:white ;
+                border-radius: 50%;
+            }
+            .social-media > i{
+                color:black;
+                font-size:150%;
+            }
+            
+            #about-and-others-parent{
+                border-top:1px solid rgb(153,153,153);
+                border-bottom:1px solid rgb(153,153,153);
+                width:90%;
+                margin:auto;
+                padding:1% 0% 1% 0%;
+            }
+            .about-and-others-child{
+                border:0px solid red;
+                width:70%;
+                margin:auto;
+                color:white;
+                display: flex;
+                justify-content: space-between;
+            }
+            .about-and-others-child > p >a{
+                color:white;
+                text-decoration: none;
+                font-size: large;
+            }
+            .about-and-others-child > p > a:hover{
+                text-decoration: underline;
+            }
+            #contact-main-div{
+                border-bottom:1px solid rgb(153,153,153);
+                width:90%;
+                margin:auto;
+            }
+            .contact-child-div{
+                border:0px solid red;
+                width:95%;
+                margin:auto;
+                display: flex;
+            }
+            .contact-child-inner-div{
+                border:0px solid yellow;
+                color:white;
+            }
+            
+            #download-App{
+                border-bottom:1px solid rgb(153,153,153);
+            }
+            .download-app-parent-container{
+                border:0px solid white;
+                width:70%;
+                margin:auto;
+                display:flex;
+            }
+            .child-container{
+                border:0px solid red;
+                width:60%;
+            }
+            .child-container > p{
+                font-size: 105%;
+                font-weight: bold;
+                color:white;
+            }
+            .child-container > p + P{
+                font-size: 100%;
+                font-weight: normal;
+                color:rgb(150,150,150);
+            }
+            .download-by-app{
+                width:40%;
+                margin: 4%;
+                cursor: pointer;
+            }
+            .download-by-app > img{
+                width:100%;
+            }
+            #copyright-claim{
+                color:rgb(150,150,150);
+                text-align: center;
+            }
+            
+            }

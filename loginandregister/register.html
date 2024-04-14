@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="parent-container">
+        <h1>Register</h1>
+        <div class="child-container">
+            <form onSubmit={handleSubmit} class="form">
+                <div>
+                    <input 
+                    id="name"
+                    type="text"
+                    placeholder="Name"
+                    />
+                </div>
+                <div>
+                    <input 
+                    id="username"
+                    type="text"
+                    placeholder="username"
+                    />
+                </div>
+                <div>
+                    <input 
+                    id="email"
+                    type="email"
+                    placeholder="Email"
+                    />
+                </div>
+                <div>
+                    <input 
+                    id="password"
+                    type="password"
+                    placeholder="Password"
+                    />
+                </div>
+                <div>
+                    <input 
+                    id="confirmpassword"
+                    type="password"
+                    placeholder="Confirm Password"
+                    />
+                </div>
+                
+                <button type="submit" class="registerBtn">Register</button>
+            </form>
+            <p class="login-text">You have an Account <a  href="./login.html" style="color:rgb(87, 87, 228); text-decoration:none">Login</a></p>
+        </div>
+    </div>
+</body>
+</html>

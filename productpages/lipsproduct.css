@@ -1,0 +1,254 @@
+body{
+    border:0px solid blue;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color:rgb(243,243,243) ;
+}
+/*======================Navbar CSS===================================*/
+
+#navbar{
+    border:0px solid black;
+    overflow: hidden;
+    position:sticky;
+    top:0;
+    left:0;
+    right:0;
+    z-index:9999999;
+}
+
+#nav-first-div{
+    border:0px solid blue;
+    display:flex;
+    background-color:rgb(0,0,0) ;
+    padding:1%;
+}
+
+.input-search-div{
+    border:1px solid rgb(231, 230, 230);
+    border-radius: 10px;
+    width:50%;
+    height:48px;
+    display:flex;
+    margin-left:1%;
+}
+.input-search-div > input{
+    width:100%;
+    background-color:rgb(33,33,33) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 18px;
+    padding-left: 4%;
+    color:white;
+}
+
+.input-search-div > button{
+    background-color: rgb(255,255,255);
+    font-size: 16px;
+    width:25%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.login-cart-main-div{
+    border:0px solid yellow;
+    margin-left: 5%;
+    display:flex;
+    justify-content: space-between;
+    width:25%;
+}
+
+.login-register-div{
+    border:0px solid blue;
+    display:flex;
+    width:40%;
+}
+
+.user-icon-div{
+    border:0px solid yellow;
+    border-radius:50px;
+    background-color: white;
+    text-align: center;
+    margin:10% 0% 15% 0%;
+    width:20%;
+}
+
+.user-icon-div i{
+    font-size: 90%;
+    color:black;
+    margin:auto;   
+}
+
+.login-register-txt > a{
+    color:white;
+    font-size:90%;
+    margin-left:5%;
+    font-weight:500;
+    text-decoration: none;
+}
+.login-register-txt > a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.icons-div{
+    border:0px solid yellow;
+    display:flex;
+    width:30%;
+    justify-content: space-between;
+}
+
+.icons-div i{
+    margin-top: 60%;
+    font-size: 140%;
+    color:white;
+}
+
+#nav-second-div{
+    border:0px solid blue;
+    color:white;
+    background-color: rgb(20,20,20);
+    display:flex;
+    justify-content: space-evenly;
+    padding:1.5% 0% 1.5% 0%;
+}
+
+#nav-second-div a{
+    text-decoration: none;
+    font-size: 80%;
+    color:white;
+    font-weight: bold;
+}
+#nav-second-div >a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+
+/*==============================First Banner Image================================*/
+#banner-img-parent{
+    background-color: rgb(248,186,187);
+}
+.banner-img-child{
+    width:93%;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.banner-img-child > img{
+    width:100%;
+}
+
+/*=================================Home > Lips===============================*/
+#home-to-lips > p{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 3%;
+}
+#home-to-lips > p > span{
+    color:rgb(117,116,116);
+}
+
+/*==================================Product Material=========================*/
+#product-parent-div{
+    border:0px solid black;
+    display:flex;
+}
+#filter-parent-div{
+    border:0px solid yellow;
+    width:30%;
+    
+}
+#product-child-div{
+    border:0px solid red;
+    width:70%;
+    background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+    padding-bottom: 10%;
+}
+
+
+.productinnerdiv{
+    border:0px solid green;
+    margin:4%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2%;
+}
+.card{
+    border:0px solid yellow;
+    width:100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.imgdiv{
+    width:80%;
+    margin: auto;
+    margin-top:1%;
+}
+
+.imgdiv > img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.card > p{
+    line-height: 3px;
+    font-size:14px;
+}
+
+.mrp{
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(51, 49, 49);
+    padding-left:2%;
+}
+
+.originaldiv{
+    border:0px solid black;
+    display:flex;
+    width:50%;
+    margin:auto;
+    margin-top:-6%;
+}
+.pricediv{
+    border:1px solid blue;
+    padding:0;
+    background-color: rgb(1, 54, 1);
+    width:45%;
+    height:15px;
+    border-radius: 10px;
+    
+}
+.pricediv > p{
+    font-size: 10px;
+    color:white;
+    font-weight: bold;
+    margin-top: 1%;
+}
+.original{
+    font-size: 12px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.iconandbtndiv{
+    border:0px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:10%;
+}
+.hearticondiv{
+    border:1px solid black;
+    padding:4%;
+    border-radius: 10px;
+}
+.hearticondiv > i {
+    font-size: 25px;
+}
+.additems{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: cadetblue;
+}

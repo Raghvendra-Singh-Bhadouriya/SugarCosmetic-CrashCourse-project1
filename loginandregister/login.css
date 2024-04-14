@@ -1,0 +1,62 @@
+body{
+    background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+}
+
+.parent-container{
+    border:1px solid skyblue;
+    width:40%;
+    margin:auto;
+    margin-top: 10%;
+    border-radius:10px;
+    background-color: transparent ;
+}
+.child-container{
+    border:0px solid yellow;
+    width:85%;
+    margin:auto;
+    
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    width:94.3%;
+    padding:4% 2% 4%;
+    margin-bottom: 5%;
+    border-radius:5px;
+    background-color:rgb(33,33,33) ;
+    color:white;
+}
+
+input::placeholder{
+    color:white;
+    font-size:110%;
+    
+}
+
+.login-btn{
+    margin-top: 4%;
+    width:100%;
+    padding:2% 0% 2%;
+    color:white;
+    background-color: transparent;
+    border-color:rgb(57, 57, 231);
+    border-radius: 10px;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.login-btn:hover{
+    background-color: rgb(143, 31, 247);
+}
+
+.signup-text{
+    text-align:center;
+    color:white;
+    font-size: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
